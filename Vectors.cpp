@@ -1,10 +1,3 @@
-/**
- * **************** IMPORTANT! **************
- * ******* DO NOT MODIFY THIS FILE **********
- * **** DO NOT SUBMIT THIS FILE TO EAGLE ****
- * ******************************************
- */
-
 #include <iostream>
 #include <iomanip>
 #include "Vector.h"
