@@ -1,3 +1,14 @@
+/* Create a class named Vector which represents a vector in 2D. For the class we need the end's coordinates (double variables) as we consider the (0,0) as the starting point.
+Create 2 constructors: a blank one that considers the O(0,0) as vector's end, and another one that gets the coordinates (x,y) as parameters. Except of constructors, the class must contains setters and getters for the 2 variables.
+Moreover we need:
+1. Function "magnitude" which calculates vector's norm.
+2. Function "angle" which calculates vector's angle with x-axis in radians.
+3. Function "angleD" which calculates vector's angle with x-axis in degrees.
+4. Function "multiply" which receives a double number f as parameter and multiplies the vector with f.
+5. Function "add" which receives a second vector v as parameter and returns a new vector as the result of adding the existing vector with v.
+6. Function "clone" that 'copies' the vector and returns a new vector with the same coordinates.
+The main code is given. */
+
 #include <iostream>
 #include <iomanip>
 #include "Vector.h"
