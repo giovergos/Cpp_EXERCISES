@@ -1,3 +1,10 @@
+/* Create a class Triangle which represents a triangle. We need the coordinations of the three angles (ABC), so create two constructors:
+a blank one which considers that the three spots are in O(0,0) and another one which receives the coordinations (x,y) for the three spots. The class should also contains setters and getters for the six variables (xa, ya, xb, yb, xc, yc).
+Moreover, we need three functions that calculate triangle's three side's distances using Euclidean distance. Also we need three functions that calculate triangle's angles using law of cosines.
+Furthermore, you should create functions to answer the following questions:
+A) Is triangle equilateral? B) Is triangle isosceles? C) Is triangle scalene? D) Is triangle right-angled? E) Is triangle acute? F) Is triangle obtuse? G) What is the length of triangle's base (consider the AB side as the base) H) What is triangle's height? I) What is triangle's area?
+The main code is given. */
+
 #include <cmath>
 #include <iostream>
 #include <iomanip>
