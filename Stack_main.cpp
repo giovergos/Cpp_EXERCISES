@@ -1,3 +1,13 @@
+/* Create a class Stack which includes:
+1. Blank constructor Stack() which creates an array by allocating memory for 10 elements.
+2. Constructor Stack(int n) which creates an array by allocating memory for n elements.
+3. Constructor Stack(Stack &other) which creates a copy of parameter's array.
+4. Destructor ~Stack() which deallocates array's memory.
+5. Function isEmpty() which returns true or false depending on array's elements.
+6. Function pop(int &element) which returns true if the array is not empty and sets the top element of the array in the parameter.
+7. Function push(int element) which adds the parameter's element into array. If the array is full, it expands array's memory by 5 positions and then add the element. If the insertion is successful, function returns true.
+The main code is given. */
+
 #include <iostream>
 #include "Stack.h"
 
