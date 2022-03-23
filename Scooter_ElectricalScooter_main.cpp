@@ -1,3 +1,18 @@
+/* Create a class Scooter which represents a scooter and a class ElectricalScooter which represents an electrical scooter and its a derived class of Scooter.
+For Scooter we need:
+The maximum number of kilometers the scooter can travel.
+The release year of the scooter.
+For ElectricalScooter we need access to the same information and also:
+The charging time of the scooter's battery.
+Moreover we need for the classes:
+getMaxKM: returns the maximun number of kilometers the scooter can travel.
+getYear: returns the release year of the scooter.
+getPollutionScore: every vehicle has its own score depending on pollution. For scooter, the score equals to (maxKM*250)/365. For electrical scooter, the score equals to (charging time of the battery*300)/365.
+getTaxes: returns vehicle's taxes. For scooter, taxes equal to (2022-release year)*12.5, and for electrical scooter, taxes equal to the same minus the 20% of it.
+getChargingTime and setChargingTime: that are used only in ElectricalScooter as getter and setter for battery's charging time.
+Also create default constructors that declare all the variables with zero, and constructors with parameters.
+The main code is given. */
+
 #include "Scooter.h"
 #include "ElectricalScooter.h"
 #include <iostream>
