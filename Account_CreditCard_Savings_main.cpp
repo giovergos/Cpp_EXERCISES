@@ -1,3 +1,8 @@
+/* Create a program for controlling a bank account. The main code and Account.h file are given.
+You should create the Account.cpp file and also:
+A derived class CreditCard that has a credit limit.
+A derived class Savings that allows the maximum amount of 3 withdraws. */
+
 #include <iostream>
 #include "CreditCard.h"
 #include "Savings.h"
