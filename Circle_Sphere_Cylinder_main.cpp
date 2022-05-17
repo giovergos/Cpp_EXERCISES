@@ -1,3 +1,12 @@
+/* classes Circle-Sphere-Cylinder
+Create a class Circle which represents a circle. We need the coordinations of circle's center and its radius, so create two constructors:
+a blank one that considers O(0,0) as the center and the radius as 0, and a second one that receives the coordinations (x,y) for the center and the radius R.
+Except of constructors, we need setters and getters for the 3 variables (x, y and R). Also we need:
+A function Diameter which returns circles diameter, a function inCircle which receives the coordinations of a spot and checks if the spot exists in the circle or not (returns true or false), and two functions Area and Perimeter that return the area and the perimeter of circle.
+For class Sphere use inheritance (add a third variable z for the coordinations, and make all of the necessary changes in names) and replace Perimeter function with Volume.
+For class Cylinder use inheritance (add an extra variable L for the length).
+The main code is given. */
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
